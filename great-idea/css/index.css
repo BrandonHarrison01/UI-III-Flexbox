@@ -63,4 +63,112 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	margin: 60px 100px;
+  }
+  
+  header nav a {
+	color: gray;
+	margin: 35px 3%;
+	text-decoration: none;
+  }
+  
+  header nav {
+	width: 80%;
+  }
+  
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 80px
+  }
+  
+  h1 {
+	font-size: 80px;
+	padding: 20px;
+  }
+  
+  article {
+	text-align: center;
+	display: flex;
+	align-content: space-between;
+  }
+  
+  button:hover {
+	background-color: black;
+	color: white;
+  }
+  
+  button {
+	background-color: white;
+	border: 1px solid black;
+	padding: 7px 45px;
+	font-size: 16px;
+  }
+  
+  .top-content {
+	width: 49%;
+	height: 450px;
+  }
+  
+  .circle-pic {
+	width: 49%;
+  }
+  
+  .content {
+	border-style: solid none solid none;
+	border-width: 1px;
+  }
+  
+  .center-content-header{
+	display: flex;
+	
+  }
+  
+  section h2 {
+	width: 50%;
+	margin-top: 50px; 
+  }
+  
+  .center-content {
+	margin-bottom: 30px;
+	display: flex;
+  }
+  
+  .center-content p {
+	width: 50%;
+  }
+  
+  .middle-img {
+	margin: 10px 0;
+	width: 100%
+  }
+  
+  .bottom {
+	display: flex;
+  }
+  
+  .bottom h2 {
+	margin-top: 25px;
+	width: 33%
+  }
+  
+  .bottom-content {
+	margin-bottom: 50px;
+	display: flex;
+  }
+  
+  footer h2 {
+	margin-top: 40px;
+  }
+  
+  footer p {
+	margin: 15px 0;
+  }
+  
+  .copyright {
+	text-align: center;
+	margin: 50px;
+  }
+ 
